@@ -37,7 +37,7 @@ if(isset($_POST['login'])){
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    
     <meta name="generator" content="Hugo 0.84.0">
     <title>TGMS</title>
 
@@ -73,29 +73,28 @@ if(isset($_POST['login'])){
   <body class="text-center">
 
 <main class="form-signin">
-  <form action="index.php" method="POST">
-
+  
     <img class="mb-4" src="pictures/logo.png" alt="" width="88" height="100">
-    <h1 class="h3 mb-3 fw-normal"><b>TGMS</b></h1>
+<!--    <h1 class="h3 mb-3 fw-normal"><b>TRANSCRIPT MANAGEMENT</b></h1> -->
 
 
-    <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" placeholder="Email" required="True" name="username">
-      <label for="floatingInput">Email address</label>
-    </div>
-    <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required="True" name="password">
-      <label for="floatingPassword">Password</label>
-    </div>
+    <a href="separate/student_tgms/"><button class="w-100 btn btn-lg btn-primary" name ="login">Sign in as Student</button></a>
+<br>
+<br>
 
-    <div class="checkbox mb-3">
-      <label>
-        <input type="checkbox" value="remember-me"> Remember me
-      </label>
-    </div>
-    <button class="w-100 btn btn-lg btn-primary" type="submit" name ="login">Sign in</button>
-    <p class="mt-5 mb-3 text-muted">&copy; created by: ~Nashon Israel</p>
-  </form>
+
+
+    <a href="separate/staff_tgms/"><button class="w-100 btn btn-lg btn-primary" name ="login">Sign in as Teacher</button></a>
+
+    <br>
+    <br>
+
+
+
+    <a href="separate/tgms/"><button class="w-100 btn btn-lg btn-primary" name ="login">Sign in as Admin</button></a>
+
+    <p class="mt-5 mb-3 text-muted">&copy; Nathaniel & Daniel & Nasrah</p>
+  
 </main>
 
 
